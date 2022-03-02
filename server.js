@@ -2,6 +2,9 @@ const { animals } = require('./data/animals');
 
 const express = require('express');
 
+// set port as environment variable if it has been set, if not will default to port 80
+const PORT = process.env.PORT || 3001;
+
 const app = express();
 
 function filterByQuery(query, animalsArray) {
@@ -52,5 +55,5 @@ app.get('/api/animals', (req, res) => {
 });
 
 app.listen(3001, () => {
-    console.log(`API server now on port 3001`);
+    console.log(`API server now on port ${PORT}`);
 });
