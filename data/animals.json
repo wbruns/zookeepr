@@ -163,6 +163,16 @@
         "goofy"
       ],
       "id": "16"
+    },
+    {
+      "name": "Mondo",
+      "species": "Jersey Rat",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry",
+        "zany"
+      ],
+      "id": "17"
     }
   ]
 }
