@@ -153,6 +153,16 @@
         "angry"
       ],
       "id": "15"
+    },
+    {
+      "name": "Georgina",
+      "species": "Tazmanian Devil",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "zany",
+        "goofy"
+      ],
+      "id": "16"
     }
   ]
 }
